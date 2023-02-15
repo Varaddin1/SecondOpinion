@@ -1,0 +1,51 @@
+.popup {
+    /* background-image: linear-gradient(360deg, #99dfea, rgb(255, 255, 255))!important; */
+    box-shadow: inset 6px 11px 41px -28px #404041, inset 6px 11px 41px -28px #a99de7;
+    background: #fff;
+    border-radius: 8px;
+    height: auto;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+.upper {
+    padding: 50px;
+    position: relative;
+    width: auto !important;
+    height: auto !important;
+    background: rgb(64, 64, 65, 0.5);
+}
+
+.popup p {
+    text-align: justify;
+    font-weight: 300;
+    padding: 5%;
+}
+
+.body {
+    filter: blur(10px);
+    position: fixed;
+}
+
+@media (max-width:500px) {
+    .upper a {
+        margin-top: 0 !important;
+        padding: 0 !important;
+        margin-bottom: 20px;
+    }
+    .upper {
+        padding: 20px;
+    }
+}
+
+.upper1 {
+    display: none !important;
+}
+
+.popup h1 {
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 8px;
+}
